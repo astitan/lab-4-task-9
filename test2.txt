@@ -1,0 +1,122 @@
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+41
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+35
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+47
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+71
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+4
+Еnter an even number that will be in the interval from 6 to 100
+Enter size of matrix: 
+8
+Enter ratio: 
+2
+Matrix A:  0.0
+  -1   1   0  -1   0  -1   1   1
+   1   1   1  -1  -1  -1  -1   1
+  -1   0  -1  -1   1   0   0  -1
+  -1   1   1  -1  -1   1   1   0
+   0  -1   1  -1   0   0  -1   1
+  -1   1   1  -1   0   0   1  -1
+   0  -1  -1  -1  -1   1   1   1
+   1  -1  -1   1  -1   0   1  -1
+matrix B 0.0
+  -1   1   0  -1
+   1   1   1  -1
+  -1   0  -1  -1
+  -1   1   1  -1
+matrix F 0.0
+  -1   1   0  -1   0  -1   1   1
+   1   1   1  -1  -1  -1  -1   1
+  -1   0  -1  -1   1   0   0  -1
+  -1   1   1  -1  -1   1   1   0
+   0  -1   1  -1   0   0  -1   1
+  -1   1   1  -1   0   0   1  -1
+   0  -1  -1  -1  -1   1   1   1
+   1  -1  -1   1  -1   0   1  -1
+matrix C 0.0009970664978027344
+   0  -1   1   1
+  -1  -1  -1   1
+   1   0   0  -1
+  -1   1   1   0
+matrix E 0.0
+   0   0  -1   1
+   0   0   1  -1
+  -1   1   1   1
+  -1   0   1  -1
+
+the second condition was fulfilled
+new matrix C 0.0
+   0   0  -1   1
+   0   0   1  -1
+  -1   1   1   1
+  -1   0   1  -1
+new matrix E
+   0  -1   1   1
+  -1  -1  -1   1
+   1   0   0  -1
+  -1   1   1   0
+new matrix F 0.0005300045013427734
+  -1   1   0  -1   0   0  -1   1
+   1   1   1  -1   0   0   1  -1
+  -1   0  -1  -1  -1   1   1   1
+  -1   1   1  -1  -1   0   1  -1
+   0  -1   1  -1   0  -1   1   1
+  -1   1   1  -1  -1  -1  -1   1
+   0  -1  -1  -1   1   0   0  -1
+   1  -1  -1   1  -1   1   1   0
+new matrix F * K 0.0
+    -2     2     0    -2     0     0    -2     2
+     2     2     2    -2     0     0     2    -2
+    -2     0    -2    -2    -2     2     2     2
+    -2     2     2    -2    -2     0     2    -2
+     0    -2     2    -2     0    -2     2     2
+    -2     2     2    -2    -2    -2    -2     2
+     0    -2    -2    -2     2     0     0    -2
+     2    -2    -2     2    -2     2     2     0
+new matrix F * K * A 0.0005307197570800781
+     8    -2     0     6     0    -4    -6    -4
+    -2     2    -2    -8     2    -4    -2     6
+     6    -4    -4     6    -4     2     4    -4
+     2     0    -4    -2     2     0    -4     0
+     2   -10   -12     4     2     2     2    -2
+     8    -2    -6     8     2    -4    -6    -6
+     0    -4     2     2     4     0    -4     4
+    -6     4     0    -2    -4     4    12     0
+transposition matrix A 0.0
+    -1     1    -1    -1     0    -1     0     1
+     1     1     0     1    -1     1    -1    -1
+     0     1    -1     1     1     1    -1    -1
+    -1    -1    -1    -1    -1    -1    -1     1
+     0    -1     1    -1     0     0    -1    -1
+    -1    -1     0     1     0     0     1     0
+     1    -1     0     1    -1     1     1     1
+     1     1    -1     0     1    -1     1    -1
+transposition matrix A * K 0.0
+    -2     2     0    -2     0    -2     2     2
+     2     2     2    -2    -2    -2    -2     2
+    -2     0    -2    -2     2     0     0    -2
+    -2     2     2    -2    -2     2     2     0
+     0    -2     2    -2     0     0    -2     2
+    -2     2     2    -2     0     0     2    -2
+     0    -2    -2    -2    -2     2     2     2
+     2    -2    -2     2    -2     0     2    -2
+result matrix 0.0
+    10    -4     0     8     0    -2    -8    -6
+    -4     0    -4    -6     4    -2     0     4
+     8    -4    -2     8    -6     2     4    -2
+     4    -2    -6     0     4    -2    -6     0
+     2    -8   -14     6     2     2     4    -4
+    10    -4    -8    10     2    -4    -8    -4
+     0    -2     4     4     6    -2    -6     2
+    -8     6     2    -4    -2     4    10     2
+Program time: 0.0030312538146972656 seconds.
+
+Process finished with exit code 0
