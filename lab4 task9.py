@@ -6,7 +6,7 @@ import random
 import time
 print("Еnter an even number that will be in the interval from 6 to 100\nEnter size of matrix: ")
 N = int(input())
-if (N % 2 != 0) or (N < 6):
+while (N % 2 != 0) or (N < 6):
     print("Еnter an even number that will be in the interval from 6 to 100\nEnter size of matrix: ")
     N = int(input())
 print("Enter ratio: ")
